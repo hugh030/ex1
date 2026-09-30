@@ -24,7 +24,7 @@ nav a{
 } /*html裡面<nav>有<a>超連結結構的物件*/
 
 nav a:hover{
-	background: #f0fae7;
+	background: #1b4b69;
 	color: #bc6c25;
 }/*滑鼠移動到超連結時*/
 
