@@ -1,0 +1,75 @@
+body{
+	text-align: center; /* 文字置中 */
+    background: #f0fae7;
+    color: #260f4b; /*文字顏色*/
+    padding: 0;/*滿版(原body會有邊框)*/
+	margin: 0;
+
+}
+
+/*nav*/
+nav{
+	background: #259ebc;
+}
+
+nav a{
+	background: #dadbd6;
+    padding: 15px; /*上下寬度*/
+    display: inline-block; /*nav長胖要另加block*/
+    width: 200px;
+    margin: 0 10px;
+    color: #1b4b69;
+    text-decoration: none; /*超連結底線顯示*/
+
+} /*html裡面<nav>有<a>超連結結構的物件*/
+
+nav a:hover{
+	background: #f0fae7;
+	color: #bc6c25;
+}/*滑鼠移動到超連結時*/
+
+
+/*section*/
+section{
+	width: 80%; /*視窗的80%*/
+	margin: auto; /*物件置中*/
+}
+
+
+/* article */
+article{
+	display: inline-block;
+	border:solid 1px rgba(188, 108, 37, 0.2);
+    width: 200px;
+	margin: 20px;
+}
+
+article img{
+	width: 80%; /*取80%的寬度*/
+	border-radius: 50%; /*倒r角 正方形圖50%成圓*/
+}
+
+article a{
+	display: inline-block;
+	color:#1b4b69;
+	background: #ffffff;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+
+article a:hover{
+	color:#ffffff;
+	background: #259ebc;
+}
+
+article a:active{
+	color:#474cad;
+	background: #e0f2f2;
+}/*click瞬間*/
+
+
+footer{
+	margin:50px;
+}
+
