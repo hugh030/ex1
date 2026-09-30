@@ -16,7 +16,7 @@ nav a{
 	background: #259ebc;
     padding: 15px; /*上下寬度*/
     display: inline-block; /*nav長胖要另加block*/
-    width: 200px;
+    width: 150px;
     margin: 0 10px;
     color: #f0fae7;
     text-decoration: none; /*超連結底線顯示*/
@@ -24,7 +24,7 @@ nav a{
 } /*html裡面<nav>有<a>超連結結構的物件*/
 
 nav a:hover{
-	background: #64afc2;
+	background: #8abbc8;
 	color: #260f4b;
 }/*滑鼠移動到超連結時*/
 
